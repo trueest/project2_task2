@@ -1,1 +1,7 @@
-# project2_task2
+Marjorie really likes playing Scrabble. After some years, she got so good that she created her own version of the game to give her opponents a chance of winning. The idea of her game is very straightforward. Each player picks an arbitrary number of letters and creates the longest sequence of words they can get. Then, each player receives one point per vowel ({'a', 'e', 'i', 'o', 'u'}), two points per popular consonant ({'t', 'n', 's', 'r', 'h'}), and three points for any other letter. Her vocabulary knowledge is incredible, so she does not need help to decide whether the sequence of words is valid. But these sequences can get so long that she no longer wants to compute the score to discover who won the round. Marjorie invited John to play, and both already created their sequences. Can you write a program that reads these sequences and says who won the game?
+
+Input format
+You must read two lines with the sequences created by Marjorie and John. You are required to use the getchar function to do so. The sequences are composed of lowercase letters and whitespaces. Whitespaces must be ignored, as they do not count for scoring. One sequence ends with the newline character. Strings and string library functions in <string.h> are not allowed in this program.
+
+Output
+If the first sequence has a higher score, print "Marjorie wins!". If the second sequence has a higher score, print "John wins!". If both sequences have the same score, print "Play again!".
